@@ -19,7 +19,7 @@ yarn dev
 Install the package:
 
 ```
-npm install vue-image-lightbox vue-lazyload
+npm install custom-caption-vue-image-lightbox vue-lazyload
 yarn add vue-image-lightbox vue-lazyload
 ```
 
@@ -34,7 +34,7 @@ Vue.use(VueLazyLoad)
 
 and use the lightbox:
 ```javascript
-import LightBox from 'vue-image-lightbox'
+import LightBox from 'custom-caption-vue-image-lightbox'
 
 export default {
   components: {
@@ -56,7 +56,7 @@ You can simply view [App.vue](https://github.com/pexea12/vue-image-lightbox/blob
 
 Import CSS style
 ```javascript
-require('vue-image-lightbox/dist/vue-image-lightbox.min.css')
+require('custom-caption-vue-image-lightbox/dist/vue-image-lightbox.min.css')
 // Use only when you are using Webpack
 ```
 How to use:
